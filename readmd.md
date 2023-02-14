@@ -11,5 +11,13 @@
 ### clean the repo.
     
     cd ../
-    npm i cors express jwt 
+    npm i cors express jwt dotenv
     
+- add the tailwind (in the client)
+
+    npm install tailwind 
+    npm init 
+
+    
+
+      
