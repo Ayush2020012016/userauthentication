@@ -1,7 +1,15 @@
-# POC for creating the different User authentication.
+# POC for  User authentication.
 
 ### first create run create the project using 
-    <p> npm init <p>
+      npm init
 
 ### create client.
+     
+     npx create-react-app .
+     
+     
+### clean the repo.
+    
+    cd ../
+    npm i cors express jwt 
     
