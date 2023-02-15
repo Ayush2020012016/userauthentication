@@ -15,7 +15,7 @@
 
 ### folder structure Screenshot
 
-![alt text](http://github.com/Ayush2020012016/userauthentication/images/folderstructure.png)
+![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/folderstructure.png)
 
     
 ### add the tailwind (in the client)
