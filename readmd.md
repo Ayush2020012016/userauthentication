@@ -24,7 +24,7 @@
     npm init 
 
 ### tailwindcss 
-![alt text](http://github.com/Ayush2020012016/userauthentication/images/tailwind.png)
+![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/tailwindcss.png)
 
 
     
