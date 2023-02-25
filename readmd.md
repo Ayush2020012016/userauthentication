@@ -28,5 +28,16 @@
 
 
     
+### login to userfront.com
 
-      
+    npm install @userfront/react --save
+
+- add configuration for userfront.
+
+![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/configuration.png)
+
+- update the dashboard to redirect to login page if the user have not loggedin. other wise show the user data.
+
+![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/Dashboardupdated.png)
+
+
