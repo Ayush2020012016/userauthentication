@@ -5,6 +5,7 @@ import {
   Route,
   Link,
   redirect,
+  Navigate,
 } from "react-router-dom";
 import Userfront from "@userfront/react";
 
@@ -88,10 +89,8 @@ function PasswordReset() {
 }
 
 function Dashboard() {
-  function renderFn({ location }) {
-    if (!Userfront.accessToken()) {
-      return redirect("/login");
-    }
+  if (!Userfront.accessToken()) {
+    return <Navigate to="/login" replace />;
   }
 
   // If the user is logged in, show the dashboard
@@ -103,8 +102,22 @@ function Dashboard() {
       <button onClick={Userfront.logout}>Logout</button>
     </div>
   );
-
-  return <Route render={renderFn} />;
 }
+
+async function getInfo() {
+  const res = await fetch("http://localhost:4002/content", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${Userfront.accessToken()}`,
+    },
+  });
+
+  // const data = await res.json();
+  const data = await res.json();
+  console.log(data);
+}
+
+getInfo();
 
 export default App;

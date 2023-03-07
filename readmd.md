@@ -40,4 +40,12 @@
 
 ![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/Dashboardupdated.png)
 
+- now create a server.js file 
+- add dotevn to the server.js 
+- add authenticate middleware
 
+![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/serverjs.png)
+
+
+- now on frontend page add a make a request to the server
+![alt text](https://github.com/Ayush2020012016/userauthentication/blob/master/images/frontend.png)
